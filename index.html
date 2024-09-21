@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project 2 | HTML Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav aria-label="Main Navigation" class="dektop-nav">
+      <div class="logo">Alamahul Bayan</div>
+      <ul class="items-group">
+        <li class="nav-items"><a href="#home">Home</a></li>
+        <li class="nav-items"><a href="#project">Project</a></li>
+        <li class="nav-items"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Mobile Navigation" class="mobile-nav">
+      <div class="logo">Alamahul Bayan</div>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle" class="btn-nav">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <ul class="items-group">
+        <li class="nav-items">
+          <a href="#home"><span>Home</span></a>
+        </li>
+        <li class="nav-items">
+          <a href="#project"><span>Project</span></a>
+        </li>
+
+        <li class="nav-items">
+          <a href="#contact"><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <div class="hero">
+            <img src="./img/alamahul_bayan.png" alt="Alamahul Bayan" />
+            <h1>Alamahul Bayan</h1>
+            <h2>Web Developer</h2>
+          </div>
+          <div class="information">
+            <div class="box about">
+              <h2>About</h2>
+              <p>
+                I am a Web Developer views with deep experience website creation and application development web. With a strong background in it web development, I have expertise to create responsive web solutions, functional, and user
+                friendly.
+              </p>
+              <div class="icon"></div>
+            </div>
+            <div class="box education">
+              <h2>Education</h2>
+              <img src="./img/ITG.jpeg" alt="Institut Teknologi Garut" />
+              <p>Institut Teknologi Garut</p>
+            </div>
+            <div class="box work">
+              <h2>Work Experience</h2>
+              <img src="./img/PT_KAI.jpg" alt="PT KAI" />
+              <p>PT KAI</p>
+            </div>
+            <div class="box skills">
+              <h2>Skills</h2>
+              <img src="./img/programming_images.jpg" alt="Programming Images" />
+              <p>HTML,CSS, Web Design (Canva, Figma)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="griding">
+        <section id="project">
+          <div class="container">
+            <div class="project">
+              <h2>Project</h2>
+              <div class="app">
+                <div class="card tindog-app">
+                  <h3>Tindog App</h3>
+                  <img src="./img/tindog_app.png" alt="Tindog App" />
+                  <p>HTML, CSS, Bootstrap</p>
+                </div>
+                <div class="card mondirin">
+                  <h3>Mondirin Design</h3>
+                  <img src="./img/mondirin_design.png" alt="mondirin Design" />
+                  <p>HTML, CSS, Bootstrap</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="container">
+            <div class="contact">
+              <h2>Contact</h2>
+              <div class="contact-platform">
+                <div class="instagram">
+                  <h3>Instagram</h3>
+                  <img src="./img/instagram.jpg" width="300" alt="Instagram" />
+                </div>
+                <div class="linkedln">
+                  <h3>Linkedln</h3>
+                  <img src="./img/linkedln_logo.png" width="300" height="300" alt="linkedln" />
+                </div>
+              </div>
+              <div class="input">
+                <h3>Message</h3>
+                <form action="">
+                  <input type="email" name="email" id="email" placeholder="email" />
+                  <textarea placeholder="sent your message here" name="message" id="message"></textarea>
+                  <button type="submit">SENT</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>2024 © All Right Reversed. Alamahul Bayan.</p>
+    </footer>
+  </body>
+</html>
